@@ -1,6 +1,6 @@
 ![Project Logo](https://github.com/nathandamas/your-repo/assets/your-logo-image)
 
-# OSM Contribution Dynamics in Curitiba
+# Urban OSM Analysis
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 ![Status: In Development](http://img.shields.io/static/v1?label=STATUS&message=IN%20DEVELOPMENT&color=yellow&style=for-the-badge)
