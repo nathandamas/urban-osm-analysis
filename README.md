@@ -1,4 +1,4 @@
-![Project Logo](https://github.com/nathandamas/urban-osm-analysis/blob/master/images/osm_urban.png)
+![Project Logo](https://github.com/nathandamas/urban-osm-analysis/blob/master/images/osm_urban%20(Custom).png)
 
 # Urban OSM Analysis
 
