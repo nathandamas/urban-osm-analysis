@@ -47,16 +47,51 @@ To run this project, you will need:
   pip install requests geopandas pandas matplotlib
 
 
+## Usage
+1. Clone the Repository:
+```bash
+git clone https://github.com/yourusername/osm-contribution-dynamics-curitiba.git
+cd osm-contribution-dynamics-curitiba
+```
+
+2. Configure Paths:
+- Ensure that your GeoJSON file (grid of 1 km² cells) is placed in the correct directory and update the geojson_path variable in the code if necessary.
+3. Run the Scripts:
+- Execute the Python scripts to collect data from the ohsome API and generate visualizations:
+```bash
+python your_script.py
+```
+- The figures will be saved in the specified SAVE_DIRECTORY.
+
+
+## Running the Application
+This project is designed for a local environment. Once you run the main script, it will:
+
+- Query the ohsome API for selected grid cells (IDs 523 and 557) over two defined time intervals.
+- Merge the data, calculate persistence metrics, and generate time series plots.
+- Save output figures (e.g., merged deletion plots) in the designated directory.
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Don't forget to give the project a star! Thanks again! For major changes, open an issue first to discuss what you would like to change.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+
+## License
+
+This project is licensed under the MIT License.
+
+
+## Acknowledgments
+- Thanks to the Heidelberg Institute for Geoinformation Technology for developing the ohsome API.
+- Special thanks to all volunteer mappers contributing to OpenStreetMap.
+- Inspiration drawn from related research on urban mapping and OSM data quality.
