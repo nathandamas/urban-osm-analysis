@@ -90,7 +90,7 @@ Don't forget to give the project a star! Thanks again! For major changes, open a
 
 This project is licensed under the MIT License.
 
-##Authors
+## Authors
 
 ## Acknowledgments
 - Thanks to the Heidelberg Institute for Geoinformation Technology for developing the ohsome API.
